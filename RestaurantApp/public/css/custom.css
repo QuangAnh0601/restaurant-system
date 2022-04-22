@@ -1,0 +1,35 @@
+a {
+    color: #343a40;
+}
+a:hover {
+    text-decoration: none;
+    color: #343a40;
+}
+#wrapper {
+    width: 350px;
+    margin: auto;
+}
+#restaurant-name {
+    text-align: center;
+}
+.tb-sale-total {
+    width: 100%;
+}
+.btn1 {
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+}
+.btn-back {
+    background-color: rgb(84, 204, 84);
+}
+.btn-print {
+    background-color: rgb(247, 187, 97);
+}
+
+@media print {
+    .btn1{
+      display:none;
+    }
+  }
