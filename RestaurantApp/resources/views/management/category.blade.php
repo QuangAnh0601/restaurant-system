@@ -46,5 +46,7 @@
             {{$categories->links()}}
             </div>
         </div>
+
+        <div>change design category</div>
     </div>
 @endsection
